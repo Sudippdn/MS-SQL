@@ -63,8 +63,31 @@ CREATE TABLE [GiveTable Name]
   LastName charvar(50),
   Age int)
 ```
-You can replace the names of the attribute to any form(either string or integer) but should mentioned "charvar(50)" for string and "int" for integer.
+You can replace the names of the attribute to any form(either string or integer) but should mentioned `charvar(50)` for string and `int` for integer.
 
+## CASE Statement:
+I found `CASE` statement is same like `if/else` statement in other programming language like `python` where `WHEN` and `THEN` statements are used instead. There should be at least a pair of `WHEN/THEN` to use `CASE` clauses. The CASE clauses always ends with `END` keyword.
 
+To use to the `CASE` clause, the basic syntax is:
+```sql
+CASE
+	WHEN JobTitle = 'Salesman' Then Salary + (Salary * 0.1)
+	WHEN JobTitle = 'Technical' Then Salary + (Salary * 0.1)
+	WHEN JobTitle = 'Driver' Then Salary + (Salary * 0.1)
+	ELSE Salary + (Salary * 0.8)
+END AS SalaryAfterRise
+```
 
+## HAVING Clause
+While talking about the `HAVING clause`, In MS SQL, the HAVING clause is used to filter groups of data after they have been aggregated using a `GROUP BY` clause. It works in conjunction with aggregate functions `(like SUM, COUNT, AVG, MAX, MIN)` to apply conditions to the results of the grouping.
 
+The basic way of using this clause is:
+```sql
+Select JobTitle, AVG(Salary)	
+From SQLProject.dbo.EmployeeDemoGraphics
+Join SQLProject.dbo.EmployeeSalary
+	ON EmployeeDemoGraphics.EmployeeId = EmployeeSalary.EmployeeID
+Group by JobTitle
+Having AVG(Salary) > 1
+Order by avg(salary)
+```
