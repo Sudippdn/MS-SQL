@@ -52,7 +52,7 @@ You can visit the official server of Microsoft SQL Server management Studio and 
 ## Basic Level
 
 ### Creating new table
-TO create a new table in MS SQL, you need to type `CREATE TABLE`:
+TO create a new table in MS SQL, you need to type 
 ``` CREATE TABLE [GiveTable Name] ```
 
 After making table, give attributes,
