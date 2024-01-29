@@ -53,7 +53,9 @@ You can visit the official server of Microsoft SQL Server management Studio and 
 
 ### Creating new table
 TO create a new table in MS SQL, you need to type 
-```sql CREATE TABLE [GiveTable Name] ```
+```sql
+CREATE TABLE [GiveTable Name]
+ ```
 
 After making table, give attributes,
 ```sql
