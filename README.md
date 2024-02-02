@@ -117,8 +117,8 @@ SELECT *
 FROM [TableName]
 WHERE [AttributeName] = integer or 'Char' or 'String'
 ```
+<img scr = "https://github.com/Sudippdn/MS-SQL/assets/104957400/f125c18b-d8bb-402a-9f2f-6a71ea459212" height = 400  width = 400>
 
-<img src ="https://github.com/Sudippdn/MS-SQL/blob/main/where.jpg" width = 400, height = 400>
 ## Alise for a column
 Alise or alising or AS command is used to rename a column or table with an alias. An alias help to change the name of the column or tableName temperory and only exists for the duration of the query.
 
