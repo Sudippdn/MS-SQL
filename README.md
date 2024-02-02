@@ -91,12 +91,12 @@ Operators in SELECT clause:
 - TOP --> Select the top and mentioned number of rows from the table (Same like head in pandas)
 - DISTINCT --> Helps to eleminate dublicated from the table
 
-  The above mentioned operators are used to filter the different variation of attributes of the data in a table.
-  syntax:
-  ```sql
-  SELECT [operator] ([attribute])
-  FROM [TableName] 
-  ```
+The above mentioned operators are used to filter the different variation of attributes of the data in a table.
+syntax:
+```sql
+SELECT [operator] ([attribute])
+FROM [TableName]
+```
 
 ## INSERT INTO Clause
 `INSERT INTO` clause is used to insert the values of the attributes in a existing table. `VALUE` is passed along Table Name. While inserting the values the following syntax is passed:
