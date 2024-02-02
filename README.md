@@ -94,8 +94,8 @@ Operators in SELECT clause:
   The above mentioned operators are used to filter the different variation of attributes of the data in a table.
   syntax:
   ```sql
-SELECT [operator] ([attribute])
-FROM [TableName]
+  SELECT [operator] ([attribute])
+  FROM [TableName] 
   ```
 
 ## INSERT INTO Clause
