@@ -1,3 +1,5 @@
+![SQL2](https://github.com/Sudippdn/MS-SQL/assets/104957400/65bbc4f4-8bba-4cd4-bf08-c7f7f1e091a8)
+
 # MS SQL
 ### Intoduction:
 MS SQL, which stands for Microsoft SQL Server, is a relational database management system (RDBMS) developed by Microsoft. It's a software program that allows you to store, organize, and access data efficiently.
