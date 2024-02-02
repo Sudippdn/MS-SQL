@@ -83,19 +83,18 @@ For example:
 Suppose a table has attributes like, CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address then instead of choosing like `SELECT CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address`, we can simply perform `SELECT *`
 
 Operators in SELECT clause:
-- MIN
-- MAX
-- COUNT
-- AVG
-- SUM
-- TOP
-- DISTINCT
-- AS
+- MIN --> Gives minimum value from the selected column
+- MAX --> Gives maximum value from the selected solumn
+- COUNT --> count the similar data selected specified by `GROUP BY` clause
+- AVG --> gives average value from the selected caluse
+- SUM --> sum all the values of the targeted integer column
+- TOP --> Select the top and mentioned number of rows from the table (Same like head in pandas)
+- DISTINCT --> Helps to eleminate dublicated from the table
 
   The above mentioned operators are used to filter the different variation of attributes of the data in a table.
   syntax:
   ```sql
-SELECT [operator]([attribute])
+SELECT [operator] ([attribute])
 FROM [TableName]
   ```
 
@@ -117,7 +116,8 @@ SELECT *
 FROM [TableName]
 WHERE [AttributeName] = integer or 'Char' or 'String'
 ```
-
+## Alise for a column
+Alise or alising or AS command is used to rename a column or table with an alias. An alias help to change the name of the column or tableName temperory and only exists for the duration of the query.
 
 ## CASE Statement:
 I found `CASE` statement is same like `if/else` statement in other programming language like `python` where `WHEN` and `THEN` statements are used instead. There should be at least a pair of `WHEN/THEN` to use `CASE` clauses. The CASE clauses always ends with `END` keyword.
