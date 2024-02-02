@@ -1,5 +1,6 @@
 ![SQL2](https://github.com/Sudippdn/MS-SQL/assets/104957400/65bbc4f4-8bba-4cd4-bf08-c7f7f1e091a8) 
 
+
 # MS SQL
 ### Intoduction:
 MS SQL, which stands for Microsoft SQL Server, is a relational database management system (RDBMS) developed by Microsoft. It's a software program that allows you to store, organize, and access data efficiently.
@@ -116,6 +117,8 @@ SELECT *
 FROM [TableName]
 WHERE [AttributeName] = integer or 'Char' or 'String'
 ```
+
+<img src ="https://github.com/Sudippdn/MS-SQL/blob/main/where.jpg" width = 400, height = 400>
 ## Alise for a column
 Alise or alising or AS command is used to rename a column or table with an alias. An alias help to change the name of the column or tableName temperory and only exists for the duration of the query.
 
