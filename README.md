@@ -67,6 +67,41 @@ CREATE TABLE [GiveTable Name]
 ```
 You can replace the names of the attribute to any form(either string or integer) but should mentioned `charvar(50)` for string and `int` for integer.
 
+## SELECT and FROM clauses
+SELECT clause specifies the columns from which data values are to be retrieved by the query where as FROM clause specify the table of the database. SELECT and FROM clauses always comes together in structured query language.
+
+The basic syntax of SELECT and FROM clauses is:
+```sql
+SELECT [Attribute], [Attribute], ...., [Attribute]
+FROM [TableName]
+```
+
+## SELECT ALL
+In SQL, select all can be performed by passing star(*) along with SELECT statement ie `SELECT *`.
+
+For example:
+Suppose a table has attributes like, CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address then instead of choosing like `SELECT CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address`, we can simply perform `SELECT *`
+
+## INSERT INTO Clause
+`INSERT INTO` clause is used to insert the values of the attributes in a existing table. `VALUE` is passed along Table Name. While inserting the values the following syntax is passed:
+```sql
+INSERT INTO [TableName] VALUES
+([value of first attribute], [value of second attribute], ..... [value of Nth attribute]),
+([value of first attribute], [value of second attribute], ..... [value of Nth attribute]),
+([value of first attribute], [value of second attribute], ..... [value of Nth attribute])
+```
+
+## Where Clause
+`WHERE` caluse is a cluse which plays a vital role to specify the row while performing various task after passing a certain condition. It is mostly used during deletion, replacing, inserting values, and so on which is based on overall manipulation of data. `WHERE` clause helps us to make sure the selected row is ready to manipulate accourdingly.
+
+Syntax: 
+```sql
+SELECT *
+FROM [TableName]
+WHERE [AttributeName] = integer or 'Char' or 'String'
+```
+
+
 ## CASE Statement:
 I found `CASE` statement is same like `if/else` statement in other programming language like `python` where `WHEN` and `THEN` statements are used instead. There should be at least a pair of `WHEN/THEN` to use `CASE` clauses. The CASE clauses always ends with `END` keyword.
 
