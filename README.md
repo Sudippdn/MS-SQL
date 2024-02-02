@@ -117,7 +117,7 @@ FROM [TableName]
 WHERE [AttributeName] = integer or 'Char' or 'String'
 ```
 <p align = "Center">
-	<img src='https://github.com/Sudippdn/MS-SQL/assets/104957400/d0f8283d-e0ed-4ed9-beab-2104977f67ac.png' width = 400, height = 400>
+	<img src='https://github.com/Sudippdn/MS-SQL/assets/104957400/d0f8283d-e0ed-4ed9-beab-2104977f67ac.png' width = 600, height = 500>
 </p>
 
 
