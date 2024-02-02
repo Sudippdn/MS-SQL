@@ -82,6 +82,23 @@ In SQL, select all can be performed by passing star(*) along with SELECT stateme
 For example:
 Suppose a table has attributes like, CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address then instead of choosing like `SELECT CustomerID, C_FirstName, C_LastName, C_ContactNo, C_Address`, we can simply perform `SELECT *`
 
+Operators in SELECT clause:
+- MIN
+- MAX
+- COUNT
+- AVG
+- SUM
+- TOP
+- DISTINCT
+- AS
+
+  The above mentioned operators are used to filter the different variation of attributes of the data in a table.
+  syntax:
+  ```sql
+SELECT [operator]([attribute])
+FROM [TableName]
+  ```
+
 ## INSERT INTO Clause
 `INSERT INTO` clause is used to insert the values of the attributes in a existing table. `VALUE` is passed along Table Name. While inserting the values the following syntax is passed:
 ```sql
