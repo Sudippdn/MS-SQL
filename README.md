@@ -1,4 +1,5 @@
-<img src="https://github.com/Sudippdn/MS-SQL/assets/104957400/65bbc4f4-8bba-4cd4-bf08-c7f7f1e091a8.png" height = 400, width = 1000>
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/LogoSQL.png)
+
 
 # MS SQL
 ### Intoduction:
@@ -97,6 +98,7 @@ syntax:
 SELECT [operator] ([attribute])
 FROM [TableName]
 ```
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/selectStatement.jpg)
 
 ## INSERT INTO Clause
 `INSERT INTO` clause is used to insert the values of the attributes in a existing table. `VALUE` is passed along Table Name. While inserting the values the following syntax is passed:
@@ -116,13 +118,12 @@ SELECT *
 FROM [TableName]
 WHERE [AttributeName] = integer or 'Char' or 'String'
 ```
-<p align = "Center">
-	<img src='https://github.com/Sudippdn/MS-SQL/assets/104957400/d0f8283d-e0ed-4ed9-beab-2104977f67ac.png' width = 600, height = 500>
-</p>
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/where.jpg)
 
 
 ## Alise for a column
 Alise or alising or AS command is used to rename a column or table with an alias. An alias help to change the name of the column or tableName temperory and only exists for the duration of the query.
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/Alising.jpg)
 
 ## CASE Statement:
 I found `CASE` statement is same like `if/else` statement in other programming language like `python` where `WHEN` and `THEN` statements are used instead. There should be at least a pair of `WHEN/THEN` to use `CASE` clauses. The CASE clauses always ends with `END` keyword.
@@ -136,6 +137,7 @@ CASE
 	ELSE Salary + (Salary * 0.8)
 END AS SalaryAfterRise
 ```
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/case%20statement.jpg)
 
 ## HAVING Clause
 While talking about the `HAVING clause`, In MS SQL, the HAVING clause is used to filter groups of data after they have been aggregated using a `GROUP BY` clause. It works in conjunction with aggregate functions `(like SUM, COUNT, AVG, MAX, MIN)` to apply conditions to the results of the grouping.
@@ -150,3 +152,4 @@ Group by JobTitle
 Having AVG(Salary) > 1
 Order by avg(salary)
 ```
+![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/Having%20Clause%20.jpg)
