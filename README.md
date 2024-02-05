@@ -13,14 +13,14 @@ You can visit the official server of Microsoft SQL Server management Studio and 
 >Here I have mentioned the topics you need to cover based on their difficulty level. The levels are:
 > 
 >### Basic Level:
->In basic Level, you can learn to
->i) create a new query and a table
->ii) Insert the data inside the table
->iii) Access the data from outside the database
->iv) Learn to display attributes and its elements from the table
->v) Commenting the codes
->vi) Execute Individual Codes from the multiple queries
->vii) Where Statement, Group BY, Order BY
+> In basic Level, you can learn to
+>- *create a new query and a table*
+>- *Insert the data inside the table*
+>- *Access the data from outside the database*
+>- *Learn to display attributes and its elements from the table*
+>- *Commenting the codes*
+>- *Execute Individual Codes from the multiple queries*
+>- *Where Statement, Group BY, Order BY*
 >
 >### Intermediate:
 >To complete the intermediate level, you should know the following topics:
