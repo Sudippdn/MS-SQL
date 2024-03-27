@@ -1,3 +1,5 @@
+_here is the sql courses with examples_
+
 ![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/LogoSQL.png)
 
 
