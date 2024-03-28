@@ -155,3 +155,5 @@ Having AVG(Salary) > 1
 Order by avg(salary)
 ```
 ![](https://github.com/Sudippdn/MS-SQL/blob/main/Image/Having%20Clause%20.jpg)
+
+**_will continue..._**
